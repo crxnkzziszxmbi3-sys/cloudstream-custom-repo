@@ -1,0 +1,22 @@
+{
+  "name": "CS-Custom-Repo",
+  "description": "Curated CloudStream repository with validated providers. Updated monthly.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/hexated/cloudstream-extensions-hexated/builds/plugins.json",
+    "https://raw.githubusercontent.com/self-similarity/MegaRepo/builds/repo.json",
+    "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/builds/repo.json",
+    "https://raw.githubusercontent.com/Kraptor123/Cs-Karma/builds/plugins.json"
+  ],
+  "_maintenance": {
+    "lastCheck": "2026-06-03",
+    "version": "1.2.0",
+    "notes": {
+      "hexated": "OK - 200 | 64 plugins | URL: plugins.json (fixed in v1.1.0)",
+      "MegaRepo": "OK - 200 | manifest v1",
+      "phisher98": "OK - 200 | manifest v1 | URL simplified in v1.1.0",
+      "Kraptor123/Cs-Karma": "REPLACEMENT for Rowdy-Avocado (UNREACHABLE_CYCLE_2) | 35 plugins | EN/MX/TR | active 2026-06-03",
+      "Rowdy-Avocado": "REMOVED v1.2.0 - UNREACHABLE_CYCLE_2 - GitHub repo not found, no forks"
+    }
+  }
+}
