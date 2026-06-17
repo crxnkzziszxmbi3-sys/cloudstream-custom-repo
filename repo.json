@@ -9,7 +9,7 @@
     "https://raw.githubusercontent.com/Kraptor123/Cs-Karma/builds/plugins.json"
   ],
   "_maintenance": {
-    "lastCheck": "2026-06-03",
+    "lastCheck": "2026-06-17",
     "version": "1.2.0",
     "notes": {
       "hexated": "OK - 200 | 64 plugins | URL: plugins.json (fixed in v1.1.0)",
@@ -17,6 +17,26 @@
       "phisher98": "OK - 200 | manifest v1 | URL simplified in v1.1.0",
       "Kraptor123/Cs-Karma": "REPLACEMENT for Rowdy-Avocado (UNREACHABLE_CYCLE_2) | 35 plugins | EN/MX/TR | active 2026-06-03",
       "Rowdy-Avocado": "REMOVED v1.2.0 - UNREACHABLE_CYCLE_2 - GitHub repo not found, no forks"
+    },
+    "cycle": 2,
+    "status": "ALL_SOURCES_HEALTHY",
+    "sourceHealthCheck": {
+      "hexated": {
+        "status": "OK",
+        "cycle": 0
+      },
+      "MegaRepo": {
+        "status": "OK",
+        "cycle": 0
+      },
+      "phisher98": {
+        "status": "OK",
+        "cycle": 0
+      },
+      "Kraptor123/Cs-Karma": {
+        "status": "OK",
+        "cycle": 0
+      }
     }
   }
 }

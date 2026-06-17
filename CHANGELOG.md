@@ -57,3 +57,26 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - hexated URL → fixed in v1.1.0
 - phisher98 URL → fixed in v1.1.0
 - Rowdy-Avocado offline → replaced in v1.2.0
+
+## [1.2.1] - 2026-06-17
+
+### Maintenance Run — 14-Day Active-Agent Check #2
+
+#### Confirmed All Sources Healthy
+- **hexated**: HTTP 200, 64 plugins, JSON valid, cycle 0
+- **MegaRepo**: HTTP 200, 1 nested repository, JSON valid, cycle 0
+- **phisher98**: HTTP 200, 77 nested sub-plugins (via pluginLists), JSON valid, cycle 0
+- **Kraptor123/Cs-Karma**: HTTP 200, 35 plugins, JSON valid, cycle 0
+
+#### Status Summary
+- Total sources: 4/4 reachable
+- No unreachable sources
+- No replacements needed
+- All JSON manifests structurally valid
+- Cycle counters reset (all at 0)
+
+#### Updated
+- `repo.json`: lastCheck → 2026-06-17, cycle 2, status "ALL_SOURCES_HEALTHY"
+- Added sourceHealthCheck block with per-source cycle tracking
+
+---
