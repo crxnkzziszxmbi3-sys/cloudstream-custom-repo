@@ -80,3 +80,14 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - Added sourceHealthCheck block with per-source cycle tracking
 
 ---
+
+## [1.2.0] — 2026-07-01 — Health Check Cycle #3
+**Status:** ✅ All 4 sources healthy and reachable.
+
+- hexated: 64 plugins ✅
+- MegaRepo: aggregator manifest ✅
+- phisher98: aggregator manifest ✅
+- Kraptor123/Cs-Karma: 35 plugins ✅
+
+**Summary:** No correctable issues. All HTTP endpoints 200. JSON structures valid. Next check: 2026-07-15.
+
